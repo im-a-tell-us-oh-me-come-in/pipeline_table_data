@@ -1,10 +1,10 @@
 version: 2
 updates:
-  - package-ecosystem: "pip" # Pythonの場合 (npmなら "npm")
+  - package-ecosystem: "pip"
     directory: "/"
     schedule:
-      interval: "weekly" # 毎日だとPR攻めにあうから週1くらいが平和
+      interval: "weekly"
     groups:
-      python-deps: # 好きなグループ名
+      dependencies:
         patterns:
-          - "*" # 全てのライブラリを1つのPRにまとめる設定
+          - "*"
