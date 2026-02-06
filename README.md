@@ -4,7 +4,7 @@
 
 ## 動作検証済み環境
 OS: MacOS Catalina  
-python: 3.7.2
+python: 3.14
 
 # 手順
 
